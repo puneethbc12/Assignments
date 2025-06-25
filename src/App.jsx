@@ -11,8 +11,8 @@ function App() {
     <Suspense fallback={<div>Loading...</div>}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" exact element={<Logon_Page />} />
-          <Route path="/AudioVideoRecorder" element={<AudioVideoRecorder />} />
+          <Route path="/" exact element={<AudioVideoRecorder />} />
+          {/* <Route path="/AudioVideoRecorder" element={<AudioVideoRecorder />} /> */}
         </Routes>
       </BrowserRouter>
     </Suspense>
