@@ -1,14 +1,20 @@
 @font-face {
     font-family: 'OpenSans-Semibold';
-    src: url('../../public//OpenSansFonts//OpenSans-SemiBold.ttf');
+    src: url('../../public/OpenSansFonts/OpenSans-SemiBold.ttf');
 }
 
 @font-face {
     font-family: 'OpenSans-Bold';
-    src: url('../../public//OpenSansFonts//OpenSans-Bold.ttf');
+    src: url('../../public/OpenSansFonts/OpenSans-Bold.ttf');
 }
 
 @font-face {
     font-family: 'OpenSans-Regular';
-    src: url('../../public//OpenSansFonts//OpenSans-Regular.ttf');
+    src: url('../../public/OpenSansFonts/OpenSans-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
 }
